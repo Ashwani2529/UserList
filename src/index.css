@@ -1,0 +1,280 @@
+body {
+  /* overflow: hidden; */
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.index {
+
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.index .div {
+
+  background-color: #ffffff;
+  height: 1000px;
+  position: relative;
+  width: 1440px;
+}
+
+.index .right {
+
+  height: 755px;
+  left: 815px;
+  position: absolute;
+  top: 175px;
+  width: 502px;
+}
+
+.index .frame {
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 100px;
+  height: 131px;
+  left: 185px;
+  position: absolute;
+  top: 97px;
+  width: 131px;
+}
+
+.index .username {
+  color: #000000;
+  font-family: "Montserrat", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  height: 22px;
+  left: 198px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 242px;
+}
+
+.index .group {
+  height: 48px;
+  left: 99px;
+  position: absolute;
+  top: 407px;
+  width: 304px;
+}
+
+.index .job-title-wrapper {
+  align-items: flex-start;
+  background-color: #dadada;
+  border: 1px solid;
+  border-color: #6c6c6c;
+  border-radius: 4px;
+  display: flex;
+  height: 31px;
+  left: 0;
+  overflow: hidden;
+  padding: 8px;
+  position: absolute;
+  top: 17px;
+  width: 304px;
+}
+
+.index .job-title {
+  color: #000000;
+  font-family: "Montserrat", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.index .text-wrapper {
+  color: #000000;
+  font-family: "Montserrat", Helvetica;
+  font-size: 10px;
+  font-weight: 500;
+  height: 12px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+}
+
+.index .group-2 {
+  height: 48px;
+  left: 98px;
+  position: absolute;
+  top: 480px;
+  width: 304px;
+}
+
+.index .group-3 {
+  height: 48px;
+  left: 98px;
+  position: absolute;
+  top: 490px;
+  width: 304px;
+}
+
+.index .bio-wrapper {
+  align-items: flex-start;
+  background-color: #dadada;
+  border: 1px solid;
+  border-color: #6c6c6c;
+  border-radius: 4px;
+  display: flex;
+  height: 87px;
+  left: 99px;
+  overflow: hidden;
+  padding: 8px;
+  position: absolute;
+  top: 295px;
+  width: 304px;
+}
+
+.index .bio {
+  color: #000000;
+  font-family: "Montserrat", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: 271px;
+}
+
+.index .user-details-heading {
+  background-color: #c5dfff;
+  border-radius: 8px 8px 0px 0px;
+  height: 70px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 502px;
+}
+
+.index .text-wrapper-2 {
+  color: #000000;
+  font-family: "Montserrat", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  left: 162px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 20px;
+}
+
+.index .frame-2 {
+  align-items: center;
+  background-color: #ebebeb;
+  border-radius: 4px;
+  display: block;
+  gap: 10px;
+  left: 72px;
+  overflow: hidden;
+  padding: 8px 10px;
+  position: absolute;
+  top: 265px;
+  width: 623px;
+}
+
+.index .frame-3 {
+  background-position: 50% 50%;
+  /* border:1px solid red; */
+  background-size: cover;
+  border-radius: 100px;
+  height: 50px;
+  position: relative;
+  width: 50px;
+}
+
+.index .text-wrapper-3 {
+  color: #000000;
+  font-family: "Montserrat", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.index .frame-4 {
+  align-items: center;
+  background-color: #d4d4d4;
+  border-radius: 4px;
+  display: flex;
+  gap: 10px;
+  left: 105px;
+  overflow: hidden;
+  padding: 8px 10px;
+  position: absolute;
+  top: 341px;
+  width: 623px;
+}
+
+.index .frame-5 {
+  align-items: center;
+  background-color: #ebebeb;
+  border-radius: 4px;
+  display: flex;
+  gap: 10px;
+  left: 105px;
+  overflow: hidden;
+  padding: 8px 10px;
+  position: absolute;
+  top: 417px;
+  width: 623px;
+}
+
+.index .frame-6 {
+  align-items: center;
+  background-color: #ebebeb;
+  border-radius: 4px;
+  display: flex;
+  gap: 10px;
+  left: 105px;
+  overflow: hidden;
+  padding: 8px 10px;
+  position: absolute;
+  top: 493px;
+  width: 623px;
+}
+
+.index .user-list-heading {
+  background-color: #c4dfff;
+  border-radius: 8px 8px 0px 0px;
+  height: 70px;
+  left: 72px;
+  overflow: hidden;
+  position: absolute;
+  top: 175px;
+  width: 623px;
+}
+
+.index .text-wrapper-4 {
+  color: #000000;
+  font-family: "Montserrat", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  left: 223px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 20px;
+}
